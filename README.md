@@ -32,8 +32,9 @@ pip install -r requirements.txt
     <td><img src="img_result/fig_2.png" alt="fireplug_training" width="400"height="400"></td>
   </tr>
 </table>
-pt 파일경로를 반드시 준수해주시기 바랍니다. 
-pt파일은 [Drive](https://drive.google.com/drive/folders/1or_V69FZXuKrP0Shms51-A8xhTkm7ppT?usp=drive_link)에서 확인부탁드립니다.
+pt 파일경로를 반드시 준수해주시기 바랍니다.
+ 
+pt파일은 [YOLOv5](https://drive.google.com/drive/folders/1or_V69FZXuKrP0Shms51-A8xhTkm7ppT?usp=drive_link)에서 확인부탁드립니다.
 ```
 ./
 ├──vits
@@ -49,9 +50,9 @@ pt파일은 [Drive](https://drive.google.com/drive/folders/1or_V69FZXuKrP0Shms51
 python main.py
 ```
 
-결과 이미지입니다. 
-<img src="img_result/result_a.jpg" alt="lisense_training" height="400">
 
+<img src="img_result/result_a.jpg" alt="lisense_training" height="400">
+결과 이미지입니다. 
 음성파일과 텍스트번호판 인식 파일은 others_result 폴더에서 확인하시면 됩니다.
 
 
