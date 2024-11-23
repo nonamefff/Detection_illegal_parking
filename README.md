@@ -28,7 +28,7 @@ pip install -r requirements.txt
     <th>소화전 훈련</th>
   </tr>
   <tr>
-    <td><img src="img_result/fig_1.png" alt="lisense_training" width="600"height="400"></td>
+    <td><img src="img_result/fig_1.png" alt="lisense_training" width="400"height="400"></td>
     <td><img src="img_result/fig_2.png" alt="fireplug_training" width="400"height="400"></td>
   </tr>
 </table>
