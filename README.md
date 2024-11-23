@@ -11,7 +11,47 @@
 
 ```sh
 conda create -n detect_car python==3.9
+conda activate detect_car
 pip3 install torch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 --index-url https://download.pytorch.org/whl/cu117
+cd vits
+pip install -r requirements.txt
 ```
 
-훈련파일은 드라이브로 제공하겠습니다.
+4500개의 번호판 데이터와 1500개의 소화전으로 YOLOv5를 학습시켰습니다.
+훈련은 100번 200번 시켰습니다.
+훈련파일은 pt폴더에 제공하겠습니다.
+
+
+<table style="width:100%">
+  <tr>
+    <th>번호판 훈련</th>
+    <th>소화전 훈련</th>
+  </tr>
+  <tr>
+    <td><img src="img_result/fig_1.png" alt="lisense_training" height="400"></td>
+    <td><img src="img_result/fig_2.png" alt="fireplug_training" height="400"></td>
+  </tr>
+</table>
+pt 파일경로를 반드시 준수해주시기 바랍니다. 
+pt파일은 [Drive](https://drive.google.com/drive/folders/1or_V69FZXuKrP0Shms51-A8xhTkm7ppT?usp=drive_link)에서 확인부탁드립니다.
+```
+./
+├──vits
+|    └── checkpoint
+|             └──lasttry    
+|                  └──G_51000.pt, D_51000.pt
+└── fire_epoch200.pt,car_epoch100.pt
+```
+
+
+- main.py 에서 적용시킬 이미지를 설정해줍니다.
+```sh
+python main.py
+```
+
+결과 이미지입니다. 
+<img src="img_result/result_a.jpg" alt="lisense_training" height="400">
+
+음성파일과 텍스트번호판 인식 파일은 others_result 폴더에서 확인하시면 됩니다.
+
+
