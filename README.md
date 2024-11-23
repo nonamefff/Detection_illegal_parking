@@ -34,7 +34,7 @@ pip install -r requirements.txt
 </table>
 pt 파일경로를 반드시 준수해주시기 바랍니다.
  
-pt파일은 [YOLOv5](https://drive.google.com/drive/folders/1or_V69FZXuKrP0Shms51-A8xhTkm7ppT?usp=drive_link)에서 확인부탁드립니다.
+pt파일은 [Drive](https://drive.google.com/drive/folders/1or_V69FZXuKrP0Shms51-A8xhTkm7ppT?usp=drive_link)에서 확인부탁드립니다.
 ```
 ./
 ├──vits
