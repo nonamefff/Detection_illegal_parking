@@ -28,8 +28,8 @@ pip install -r requirements.txt
     <th>소화전 훈련</th>
   </tr>
   <tr>
-    <td><img src="img_result/fig_1.png" alt="lisense_training" ></td>
-    <td><img src="img_result/fig_2.png" alt="fireplug_training"></td>
+    <td><img src="img_result/fig_1.png" alt="lisense_training" width="400"height="400"></td>
+    <td><img src="img_result/fig_2.png" alt="fireplug_training" width="400"height="400"></td>
   </tr>
 </table>
 pt 파일경로를 반드시 준수해주시기 바랍니다. 
